@@ -19,3 +19,7 @@ def min_cancelled_bookings(intervals):
             prev_end = end
 
     return removals
+intervals = [[1,2],[2,3],[3,4],[1,3]]
+print(min_cancelled_bookings(intervals))
+
+
